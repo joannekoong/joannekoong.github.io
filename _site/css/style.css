@@ -1,3 +1,4 @@
+@import url("font-awesome.min.css");
 html {
   font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -136,7 +137,7 @@ table tr:nth-child(odd) th {
 }
 
 .masthead {
-  padding-top: 1rem;
+  padding-top: 4rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 }
@@ -166,12 +167,14 @@ table tr:nth-child(odd) th {
 }
 
 #aboutme {
-  margin-left: 230px;
+  margin-left: 210px;
   font-family: 'Quicksand', sans-serif;
-  color: #9edaee;
 }
 
 #basicinfo {
+  width: 50%;
+  margin-top: 80px;
+  margin-left: 150px;
   color: black;
   font-family: 'Karla', sans-serif;
 }
@@ -179,10 +182,5 @@ table tr:nth-child(odd) th {
 #picture {
   width: 14%;
   float: right;
-  margin-right: 130px;
-}
-
-#readinglist {
-  margin-left: 230px;
-  list-style-type: square;
+  margin-right: 240px;
 }
